@@ -72,6 +72,6 @@ DNS安全笔记
 
 .. toctree::
    :maxdepth: 1
-   :caption: 数据包
+   :caption: Attack
 
-   packet/injection
+   attack/packet-injection
