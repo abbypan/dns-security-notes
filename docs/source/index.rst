@@ -3,7 +3,7 @@ DNS安全笔记
 
 .. note::
 
-   https://github.com/abbypan/dns_security_notes
+   https://github.com/abbypan/dns-security-notes
 
 目录
 ----
@@ -45,6 +45,7 @@ DNS安全笔记
 
    rr/chaos
    rr/ns
+   rr/deleg
 
 
 .. toctree::
