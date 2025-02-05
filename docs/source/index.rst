@@ -76,3 +76,4 @@ DNS安全笔记
 
    attack/packet-injection
    attack/dnssec-keytrap
+   attack/ns-misconf
