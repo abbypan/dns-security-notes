@@ -1,11 +1,15 @@
 说明
-====
+=======
 
 `根区文件 <https://www.internic.net/domain/root.zone>`_ 由IANA维护，其中登记了所有顶级域的NS记录。
 
 掌握了根区文件的管理权，相当于掌握了互联网服务解析的入口。
 
 `全球根服务器 <http://www.iana.org/domains/root/servers>`_
+
+IANA -> RIPE/APNIC/ARIN
+
+root server由ICANN管理
 
 时延(RTT)
 ---------
@@ -22,9 +26,9 @@ BGP安全
 稳定性
 ------
 
-- 根服务器IP的切换，需要递归侧更新hint文件。
-- RFC8806: 递归侧主动获取根区文件，而非基于hint查询。
-
+- 根服务器IP的切换，需要递归侧更新hint文件，应急缓存优化等等
+- RFC8806 Running a Root Server Local to a Resolver: 递归侧主动获取根区文件，而非基于hint查询。
+- 部署geo及isp选择策略的问题，保证重点地区的镜像覆盖
 
 
 DNSSEC
@@ -45,6 +49,8 @@ DNSSEC
 以DNSSEC为基础，多区域共治，本地anycast优化，递归hint file/root zonefile load定期更新等等
 
 根区密钥轮转，根镜像载入zonefile前后时延
+
+极端场景下，保持与世界互联互通的问题
 
 
 TLD安全

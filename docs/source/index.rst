@@ -28,8 +28,9 @@ DNS安全笔记
    :caption: 递归
 
    recur/index
-   recur/open_recur
-   recur/forwarding_recur
+   recur/public-recur
+   recur/forwarding-recur
+   recur/open-recur
 
 
 .. toctree::
@@ -91,6 +92,7 @@ DNS安全笔记
    :caption: qos
 
    qos/resolve-performance
+   qos/cache-dns
 
 .. toctree::
    :maxdepth: 1
