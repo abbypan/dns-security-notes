@@ -50,24 +50,75 @@ DNS安全笔记
 
 .. toctree::
    :maxdepth: 1
-   :caption: 安全
+   :caption: security
 
    security/dnssec
    security/nsec
+   security/nsec5
    security/dnscurve
-   security/cookie
    security/resolverless
    security/hijack
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Extension
+
+   ext/edns0
 
 
 .. toctree::
    :maxdepth: 1
-   :caption: 隐私
+   :caption: DANE
+
+   dane/tlsa
+   dane/pmta-pay
+   dane/ipseca
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: privacy
 
    privacy/ecs
    privacy/eil
    privacy/namecoin
    privacy/dnssd
+   privacy/confidential-dns
+   privacy/start-tls
+
+.. toctree::
+   :maxdepth: 1
+   :caption: qos
+
+   qos/resolve-performance
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Local
+
+   local/split-ikev2
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: DDoS
+
+   ddos/dns-cookies
+   ddos/long-ttl
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Service
+
+   service/httpdns
+
+.. toctree::
+   :maxdepth: 1
+   :caption: software
+
+   software/dns-software-finger
+   software/bind
 
 
 .. toctree::
@@ -77,3 +128,4 @@ DNS安全笔记
    attack/packet-injection
    attack/dnssec-keytrap
    attack/ns-misconf
+   attack/nxnsattack
