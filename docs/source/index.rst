@@ -125,9 +125,16 @@ DNS安全笔记
 
 .. toctree::
    :maxdepth: 1
+   :caption: app
+
+   app/diameter-s-naptr
+
+.. toctree::
+   :maxdepth: 1
    :caption: Attack
 
    attack/packet-injection
    attack/dnssec-keytrap
    attack/ns-misconf
    attack/nxnsattack
+
