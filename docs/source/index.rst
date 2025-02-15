@@ -42,11 +42,12 @@ DNS安全笔记
 
 .. toctree::
    :maxdepth: 1
-   :caption: 资源记录
+   :caption: RR
 
    rr/chaos
    rr/ns
    rr/deleg
+   rr/svcb
 
 
 .. toctree::
@@ -111,6 +112,18 @@ DNS安全笔记
 
 .. toctree::
    :maxdepth: 1
+   :caption: ADD
+
+    add/add
+    add/ddr
+    add/dnr
+    add/enterprise-net
+    add/iot-byod
+    add/resolver-discovery
+
+
+.. toctree::
+   :maxdepth: 1
    :caption: Service
 
    service/httpdns
@@ -137,4 +150,5 @@ DNS安全笔记
    attack/dnssec-keytrap
    attack/ns-misconf
    attack/nxnsattack
+
 
