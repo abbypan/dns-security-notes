@@ -1,5 +1,5 @@
 resolverless 
-=============
+================
 
 
 如果doh只是把http当成dns的tunnel/proxy，并没有改变解析结构的本质。

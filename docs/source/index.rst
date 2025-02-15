@@ -14,6 +14,7 @@ DNS安全笔记
 
    root/index
    root/anycast
+   root/root-ana
 
 .. toctree::
    :maxdepth: 1
@@ -48,6 +49,7 @@ DNS安全笔记
    rr/ns
    rr/deleg
    rr/svcb
+   rr/srv
 
 
 .. toctree::
@@ -56,7 +58,9 @@ DNS安全笔记
 
    security/dnssec
    security/nsec
+   security/nsec3-iter
    security/nsec5
+   security/nxdomain-nsec
    security/dnscurve
    security/resolverless
    security/hijack
@@ -66,6 +70,7 @@ DNS安全笔记
    :caption: Extension
 
    ext/edns0
+   ext/multiple-res
 
 
 .. toctree::
@@ -84,9 +89,10 @@ DNS安全笔记
    privacy/ecs
    privacy/eil
    privacy/namecoin
-   privacy/dnssd
+   privacy/dnssd-privacy
    privacy/confidential-dns
    privacy/start-tls
+   privacy/knell-dns
 
 .. toctree::
    :maxdepth: 1
@@ -100,6 +106,8 @@ DNS安全笔记
    :caption: Local
 
    local/split-ikev2
+   local/iot-name-autoconf
+   local/mdns
 
 
 .. toctree::
@@ -108,6 +116,7 @@ DNS安全笔记
 
    ddos/dns-cookies
    ddos/long-ttl
+   ddos/disposable-dom
 
 
 .. toctree::
@@ -127,6 +136,9 @@ DNS安全笔记
    :caption: Service
 
    service/httpdns
+   service/doh
+   service/dnssd
+   service/hybrid-dnssd
 
 .. toctree::
    :maxdepth: 1
@@ -134,6 +146,7 @@ DNS安全笔记
 
    software/dns-software-finger
    software/bind
+   software/pcap
 
 
 .. toctree::
@@ -141,6 +154,8 @@ DNS安全笔记
    :caption: app
 
    app/diameter-s-naptr
+   app/origin-http2
+
 
 .. toctree::
    :maxdepth: 1
@@ -148,7 +163,10 @@ DNS安全笔记
 
    attack/packet-injection
    attack/dnssec-keytrap
-   attack/ns-misconf
    attack/nxnsattack
+   attack/ddos
+   attack/conf-err
+   attack/hijack
+   attack/manage
 
 

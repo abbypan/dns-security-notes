@@ -1,14 +1,9 @@
-dnssd privacy
-=================
-
-参考资料
---------
-
-- `Privacy Extensions for DNS-SD <https://datatracker.ietf.org/doc/draft-ietf-dnssd-privacy/>`_
+DNSSD Privacy
+#################
 
 
-问题
------
+背景
+==========================================================
 
 apple提供本地服务发现，共享数据等功能
 
@@ -18,9 +13,8 @@ apple提供本地服务发现，共享数据等功能
 
 然而在公共wifi的场景下，就会产生严重的安全与隐私问题
 
-
-考虑
-------
+问题 
+==========================================================
 
 安全与隐私的粒度设计选择
 
@@ -35,8 +29,7 @@ client及server端的握手随机数选择，与时间相关的nounce
 密钥泄露与防重放问题
 
 分析
------
-
+==========================================================
 
 从交互场景看，按应用验证是最保险的，但是目前设计是按设备验证。
 
@@ -49,3 +42,19 @@ apple这个功能，主要提供共享服务的关键场景是 1 v 1，还是兼
 目前比较确定保证的隐私提升效果还是 over tls 查询。
 
 
+资料
+==========================================================
+
+`DNS-SD Privacy <https://datatracker.ietf.org/meeting/100/materials/slides-100-dnssd-04-stuart-privacy/>`_
+
+`Privacy Extensions for DNS-SD <https://datatracker.ietf.org/doc/draft-ietf-dnssd-privacy/>`_
+
+https://mailarchive.ietf.org/arch/msg/dnssd/g25DoRJUZu4fGdJ0PkHqbW-EQhk
+
+https://mailarchive.ietf.org/arch/msg/dnssd/58a8lFvzsHBmOQ0AlYCXSweFFXQ
+
+https://tools.ietf.org/html/draft-ietf-dnssd-privacy-03
+
+https://tools.ietf.org/html/draft-ietf-dnssd-pairing-03
+
+https://tools.ietf.org/html/draft-ietf-dnssd-pairing-info-00
