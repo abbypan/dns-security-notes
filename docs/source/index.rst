@@ -12,8 +12,8 @@ DNS安全笔记
    :maxdepth: 1
    :caption: 根
 
-   root/index
-   root/anycast
+   root/root
+   root/root-anycast
    root/root-ana
 
 .. toctree::
@@ -28,10 +28,15 @@ DNS安全笔记
    :maxdepth: 1
    :caption: 递归
 
-   recur/index
+   recur/recur
    recur/public-recur
    recur/forwarding-recur
    recur/open-recur
+   recur/recur-opt
+   recur/recur-sec
+   recur/recur-cache-flush
+   recur/recur-improv
+
 
 
 .. toctree::
@@ -39,6 +44,10 @@ DNS安全笔记
    :caption: 权威
 
    auth/lame
+   auth/auth
+   auth/glue-req
+   auth/latency
+   auth/delegation-req
 
 
 .. toctree::
@@ -50,17 +59,20 @@ DNS安全笔记
    rr/deleg
    rr/svcb
    rr/srv
+   rr/apl
 
 
 .. toctree::
    :maxdepth: 1
    :caption: security
 
+   security/tsig
    security/dnssec
    security/nsec
    security/nsec3-iter
    security/nsec5
    security/nxdomain-nsec
+   security/nsec-nxdomain-black-lies
    security/dnscurve
    security/resolverless
    security/hijack
@@ -71,6 +83,9 @@ DNS安全笔记
 
    ext/edns0
    ext/multiple-res
+   ext/no-response
+   ext/catalog-zone
+   ext/attrleaf
 
 
 .. toctree::
@@ -86,6 +101,8 @@ DNS安全笔记
    :maxdepth: 1
    :caption: privacy
 
+   privacy/privacy
+   privacy/privacy-ana
    privacy/ecs
    privacy/eil
    privacy/namecoin
@@ -117,6 +134,7 @@ DNS安全笔记
    ddos/dns-cookies
    ddos/long-ttl
    ddos/disposable-dom
+   ddos/rrl
 
 
 .. toctree::
@@ -155,6 +173,7 @@ DNS安全笔记
 
    app/diameter-s-naptr
    app/origin-http2
+   app/iot-dns-autoconf
 
 
 .. toctree::
