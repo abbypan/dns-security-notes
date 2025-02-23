@@ -70,6 +70,7 @@ DNS安全笔记
    security/dnssec
    security/nsec
    security/nsec3-iter
+   security/nsec-wildcard
    security/nsec5
    security/nxdomain-nsec
    security/nsec-nxdomain-black-lies
@@ -110,6 +111,7 @@ DNS安全笔记
    privacy/confidential-dns
    privacy/start-tls
    privacy/knell-dns
+   privacy/ip-anon
 
 .. toctree::
    :maxdepth: 1
