@@ -7,7 +7,7 @@ https://kb.isc.org/article/AA-01000/0/A-Quick-Introduction-to-Response-Rate-Limi
 
 http://www.zytrax.com/books/dns/ch7/hkpng.html#rate-limit
 
-.. raw::
+.. note::
     rate-limit {
          [ domain domain-name ; ]
          [ responses-per-second [size number] [ratio fixedpoint] number ; ]  #可以指定每秒返回较少的大应答包

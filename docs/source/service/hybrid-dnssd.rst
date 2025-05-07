@@ -15,7 +15,7 @@ client同时发组播跟单播查Domain Enumeration的PTR记录：
 
 1. 如果应答里给了Unicast DNS name: example.com，那么client就单播再查example.com下面的PTR
 
-    .. raw::
+    .. note::
 
         b._dns-sd._udp.example.com.    PTR   Building 1.example.com.
                                               PTR   Building 2.example.com.
@@ -31,7 +31,7 @@ client同时发组播跟单播查Domain Enumeration的PTR记录：
 
 #. client 同时发 .local 域下的组播查询
 
-    .. raw::
+    .. note::
 
     My Printer._ipp._tcp.local. SRV 0 0 631 prnt.local.
     prnt.local.                 A   203.0.113.2

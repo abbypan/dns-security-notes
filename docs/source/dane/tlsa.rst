@@ -11,7 +11,7 @@ RFC6698: TLSA
 
 client 查 www.example.com 的时候可以顺便返回tlsa记录
 
-.. raw::
+.. note::
 
      _443._tcp.www.example.com. IN TLSA (
           0 0 1 xxxxxxxxxxxxxxx )

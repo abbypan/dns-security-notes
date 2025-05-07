@@ -12,7 +12,7 @@ RFC6763
 
 先查询 _ipp._tcp.example.com. 的PTR记录，得到一堆服务实例域名的SRV信息
 
-.. raw::
+.. note::
 
     Service Instance Name = <Instance> . <Service> . <Domain>
 

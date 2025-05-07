@@ -36,7 +36,7 @@ https://tools.ietf.org/html/draft-dempsky-dnscurve-01
 加密算法
 ----------------------------------------------------
 
-.. raw::
+.. note::
 
     c = aes(aes_key, src_data)
     h = sha256(c)

@@ -11,7 +11,7 @@ https://www.ietf.org/proceedings/91/slides/slides-91-homenet-4.pdf
 
 想省掉物联网设备初始化DNS配置的过程，直接自动注册名称
 
-.. raw::
+.. note::
 
     unique_id + vendor_device_model + device_category + domain_suffix (e.g., .home) 
 

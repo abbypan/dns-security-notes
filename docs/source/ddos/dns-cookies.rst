@@ -54,7 +54,7 @@ interoperable dns server cookies
 
 `RFC 9018 Interoperable Domain Name System (DNS) Server Cookies <https://www.rfc-editor.org/rfc/rfc9018.html>`_
 
-.. raw::
+.. note::
 
     client-cookie = 64 bits of entropy
 

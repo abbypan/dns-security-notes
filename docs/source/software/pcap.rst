@@ -22,6 +22,6 @@ tcpdump -s0 port 53 -w test.cap
 
 修复损坏的pcap： `pcapfix <http://f00l.de/pcapfix/>`_
 
-.. raw::
+.. note::
 
     tshark -r .\test.cap -E 'separator=;' -T fields -e frame.time -e ip.src -e ip.dst -e dns.flags.opcode -e dns.qry.name -e dns.qry.type -e dns.flags.rcode -e dns.flags.response -e dns.flags.truncated -e dns.resp.name -e dns.resp.class -e dns.resp.type -e dns.resp.ttl -e dns.a -e dns.cname -e dns.ns -e dns.aaaa

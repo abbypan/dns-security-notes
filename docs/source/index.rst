@@ -48,6 +48,7 @@ DNS安全笔记
    auth/glue-req
    auth/latency
    auth/delegation-req
+   auth/ns-revalidation
 
 
 .. toctree::
@@ -191,3 +192,8 @@ DNS安全笔记
    attack/manage
 
 
+.. toctree::
+   :maxdepth: 1
+   :caption: STD
+
+   std/deployment

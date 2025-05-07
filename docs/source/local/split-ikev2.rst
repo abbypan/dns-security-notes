@@ -5,7 +5,7 @@ IKEv2 协商参数时，可以指定内网DNS地址(split DNS)，及对应解析
 
 其他域名仍沿用client端的global DNS配置。
 
-.. raw::
+.. note::
 
     CP(CFG_REQUEST) =
          INTERNAL_IP4_ADDRESS()

@@ -13,7 +13,7 @@ RFC3403 NAPTR的场景是 提供一个正则替换表达式，借此为指定的
 
   例如 urn:cid:199606121851.1@bar.example.com
 
-.. raw::
+.. note::
 
   cid.urn.arpa.
   ;;       order pref flags service        regexp           replacement
@@ -24,7 +24,7 @@ SIP
 
 RFC3824 是NAPTR的典型应用场景，将E.164电话地址转换为SIP电话地址
 
-.. raw::
+.. note::
 
     $ORIGIN 0.0.6.2.3.3.5.2.0.2.1.e164.arpa.
     IN NAPTR 100 10 "u" "E2U+sip"    "!^.*$!sip:user@example.com!"     .
@@ -47,7 +47,7 @@ RFC3958 section 5 有简化思路讨论，Dynamic Delegation Discovery Service(D
 
 例如查询一个ex1.example.com域名的Diameter服务，flag="s"
 
-.. raw::
+.. note::
 
     ;;        order pref flags service   regexp replacement
            IN NAPTR  50    50   "s"   "aaa:diameter.sctp" ""
@@ -61,7 +61,7 @@ RFC3958 section 5 有简化思路讨论，Dynamic Delegation Discovery Service(D
 
 或者直接返回域名flag="a"
 
-.. raw::
+.. note::
 
      ;;        order pref flags service   regexp replacement
            IN NAPTR  150   50   "a"   "aaa:diameter.sctp"  ""

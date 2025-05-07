@@ -10,7 +10,7 @@ NSEC3PARAM 的hash迭代次数问题
 
 Iterations标记计算hash时的迭代次数，取值为0其实是用1次salt，逗比……
 
-.. raw::
+.. note::
 
       IH(salt, x, 0) = H(x || salt), and
       IH(salt, x, k) = H(IH(salt, x, k-1) || salt), if k > 0
@@ -43,7 +43,7 @@ Iterations标记计算hash时的迭代次数，取值为0其实是用1次salt，
 
 精明的verisign取Iterations=0，置salt为空，无比和谐，效果已经尽可能接近NSEC了：
 
-.. raw::
+.. note::
 
     $ dig +dnssec avwwwvadkllksjfwalskjfv.com
 

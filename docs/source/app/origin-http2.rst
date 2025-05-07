@@ -18,6 +18,6 @@ https://tools.ietf.org/html/draft-ietf-httpbis-http2-secondary-certs-06
 
 提供在HTTP层获取CA的机制，注意这跟之前的TLS握手不在一个层了。死道友不死贫道，跟你死我也一起死的区别。
 
-.. raw::
+.. note::
 
     Rather than needing to subvert DNS or IP routing in order to use a compromised certificate, a malicious server now only needs a client to connect to _some_ HTTPS site under its control in order to present the compromised certificate.
