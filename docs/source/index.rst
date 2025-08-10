@@ -61,6 +61,7 @@ DNS安全笔记
    rr/svcb
    rr/srv
    rr/apl
+   rr/dnssec-rr
 
 
 .. toctree::
