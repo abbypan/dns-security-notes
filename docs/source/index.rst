@@ -89,6 +89,7 @@ DNS安全笔记
    ext/no-response
    ext/catalog-zone
    ext/attrleaf
+   ext/dns-errors
 
 
 .. toctree::
@@ -186,7 +187,7 @@ DNS安全笔记
 
    attack/packet-injection
    attack/dnssec-keytrap
-   attack/nxnsattack
+   attack/ns-attack
    attack/ddos
    attack/conf-err
    attack/hijack

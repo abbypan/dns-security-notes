@@ -1,5 +1,8 @@
+NS Attack
+=================
+
 NXNSAttack
-##############
+--------------
 
 `NXNSAttack technique can be abused for large-scale DDoS attacks <https://www.zdnet.com/article/nxnsattack-technique-can-be-abused-for-large-scale-ddos-attacks/>`_
 
@@ -11,3 +14,17 @@ NXNSAttack
 触发条件其实跟nxdomain攻击类似，攻击放大比的区别在于设置的NS个数。
 
 防御的压力还是在target authority，或者攻击路径的近端路由器主动清洗。理论上，如果hw的路由器分布式联动清洗，应该能在上游抢先处理。
+
+
+NR Delegation
+-------------------
+
+
+Cache Flush
+----------------
+
+CAMP
+-------
+
+Non-existent name queries
+--------------------------------
