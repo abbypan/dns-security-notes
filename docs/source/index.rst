@@ -162,6 +162,7 @@ DNS安全笔记
    service/doh
    service/dnssd
    service/hybrid-dnssd
+   service/adns
 
 .. toctree::
    :maxdepth: 1
